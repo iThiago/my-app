@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const links = [
     { route: "/", label: "TodoList"},
-    { route: "/about", label: "Sobre"},
+    { route: "/Inserir", label: "Inserir"},
     { route: "/blog", label: "Blog"},
 ];
 

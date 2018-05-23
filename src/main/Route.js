@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
 
-import About from './../components/About';
+import Inserir from './../components/Inserir';
 import TodoList from './../components/TodoList';
 import NoMatch from './../components/NoMatch';
 export class Routes extends Component {
@@ -10,7 +10,7 @@ export class Routes extends Component {
             <main className="container">
                 <Switch>
                     <Route exact path='/' component={TodoList}/>
-                    <Route path='/about' component={About}/>
+                    <Route path='/inserir' component={Inserir}/>
                     <Route component={NoMatch}/>
                 </Switch>
             </main>
